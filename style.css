@@ -104,3 +104,47 @@ main {
     color: goldenrod;
 }
 
+/* mobile responsive */
+
+@media (max-width: 576px) {
+    h1 {
+        text-align: center;
+    }
+
+    .information .info-card {
+        text-align: center;
+    }
+    .information .info-img {
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+    }
+    .footer-social-icon {
+        text-align: center;
+    }
+}
+
+@media (max-width: 986px) {
+    h1 {
+        text-align: center;
+    }
+
+    .information .info-card {
+        text-align: center;
+    }
+    .information .info-img {
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+    }
+    .footer-social-icon {
+        text-align: center;
+    }
+
+}
