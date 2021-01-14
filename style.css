@@ -113,6 +113,7 @@ main {
 
     .information .info-card {
         text-align: center;
+        margin-top: 20px;
     }
     .information .info-img {
         height: 100px;
@@ -124,6 +125,20 @@ main {
     }
     .footer-social-icon {
         text-align: center;
+    }
+
+    .information .mobile-res{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .banner .mobile-res {
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .banner h1 {
+        text-align: left;
     }
 }
 
@@ -146,5 +161,4 @@ main {
     .footer-social-icon {
         text-align: center;
     }
-
 }
