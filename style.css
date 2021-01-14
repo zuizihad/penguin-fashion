@@ -161,4 +161,7 @@ main {
     .footer-social-icon {
         text-align: center;
     }
+    .banner h1 {
+        text-align: left;
+    }
 }
